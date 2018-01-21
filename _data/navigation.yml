@@ -1,13 +1,13 @@
 # Site navigation links
 
-- title: Getting Started
-  url: /getting-started/
-  excerpt: "Everything you need to know to get started with Skinny Bones and Jekyll."
-  image: 400x250.gif
 
-- title: Sample Articles
-  url: /articles/
-  excerpt: "Examples of long form posts."
+- title: Home
+  url: /
+  excerpt: "Return to Home"
+
+- title: Blog
+  url: /blog/
+  excerpt: "A Personal Blog"
   image: 400x250.gif
 
 - title: Media
@@ -17,5 +17,5 @@
 
 - title: About
   url: /about/
-  excerpt: "All about Skinny Bones for Jekyll."
+  excerpt: "About Tiffany Moeller"
   image: 400x250.gif
