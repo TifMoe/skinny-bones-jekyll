@@ -19,16 +19,24 @@ ___
 
 This first project imagines that we are contacted by a potential client, WomenTechWomenYes, to solicit our help optimizing their street team work to collect the most emails from NYC commuters entering subway stations around the city. 
 
-*WomenTechWomenYes (WTWY) has an annual gala at the beginning of the summer each year. As we are new and inclusive organization, we try to do double duty with the gala both to fill our event space with individuals passionate about increasing the participation of women in technology, and to concurrently build awareness and reach.*
+<div id="awesome">
+	<blockquote>
+		
+		<p><font size="3">WomenTechWomenYes (WTWY) has an annual gala at the beginning of the summer each year. As we are new and inclusive organization, we try to do double duty with the gala both to fill our event space with individuals passionate about increasing the participation of women in technology, and to concurrently build awareness and reach.		</font>
+		</p>
 
-*To this end we place street teams at entrances to subway stations. The street teams collect email addresses and those who sign up are sent free tickets to our gala.*
+		<p><font size="3">To this end we place street teams at entrances to subway stations. The street teams collect email addresses and those who sign up are sent free tickets to our gala.
+			</font>
+		</p>
 
-*Where we’d like to solicit your engagement is to use MTA subway data, which as I’m sure you know is available freely from the city, to help us optimize the placement of our street teams, such that we can gather the most signatures, ideally from those who will attend the gala and contribute to our cause.*
+		<p><font size="3">Where we’d like to solicit your engagement is to use MTA subway data, which as I’m sure you know is available freely from the city, to <b>help us optimize the placement of our street teams, such that we can gather the most signatures, ideally from those who will attend the gala and contribute to our cause</b>.
+		</font>
+		</p>
+	</blockquote>
+</div>
 
 
 Clearly the goal of this new organization is to **build awareness**, and they're hoping to achieve that goal by 1) connecting with as many commuters as possible and 2) specifically targeting individuals who are most likely to attend their gala and contribute to their cause. 
-
->> *... help us optimize the placement of our street teams, such that we can gather the most signatures, ideally from those who will attend the gala and contribute to our cause*
 
 Ideally, we would conduct an analysis of the NYC transit system and surrounding areas that would satisfy both objectives by identifying:
 
@@ -48,15 +56,15 @@ There is a concept in project management that a project's quality is constrained
 	<img src="http://ptgmedia.pearsoncmg.com/images/intro_9780133839753/elementLinks/01fig01.jpg" alt="">
 </figure></center>
 
-Because our time and resources were fixed, (my group had three people, 4 days, and only open source data/tools) we decided to limit the scope of our project to avoid producing low quality results.
+Because our time and resources were fixed, we decided to limit the scope of our project to avoid producing low quality results.
 
 In the end, our goal was to accomplish two things:
 
 > **Our goal is to identify:**
 
-> 1) **The Most Frequented Stations** 
+> 1) The Most Frequented Stations
 
-> 2) **At Optimized Times**
+> 2) At Optimized Times
 
 ___
 
