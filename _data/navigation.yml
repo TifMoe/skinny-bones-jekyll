@@ -10,9 +10,9 @@
   excerpt: "A Personal Blog"
   image: 400x250.gif
 
-- title: Media
+- title: Portfolio
   url: /media/
-  excerpt: "Examples of media posts perfect for showcasing work, photographs, etc."
+  excerpt: "Showcase interactive data visualizations and data science projects"
   image: 400x250.gif
 
 - title: About
