@@ -42,7 +42,7 @@ owner:
   email: 
   twitter: 
   bio: "Data Scientist"
-  avatar: bio-photo.jpg # 160x160 px image for author byline
+  avatar: /images/bio-photo.jpg # 160x160 px image for author byline
   google:
     plus: 
     ad-client:
