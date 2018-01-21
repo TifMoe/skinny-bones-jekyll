@@ -9,20 +9,52 @@ image:
   teaser: nyc-subway-teaser.jpg
 ---
 
-This is a sample post with a large feature image up top and tons of text. Odio ad blue bottle vinyl, 90's narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney's. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.
+I recently quit my job as the Senior Business Analyst at [Sittercity](https://www.sittercity.com/) to take a full-time, three month data science course with [Metis](https://www.thisismetis.com/). Read more about my experience with Metis here. 
 
-{% include toc.html %}
+At Metis we hit the ground running and were assigned our first of five projects on the very first day - this post is a summary of that project
 
-Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
+## Project Problem Statement
 
-## Cupidatat 90's lo-fi authentic try-hard
+This first project imagines that we are contacted by a potential client, WomenTechWomenYes, to solicit our help optimizing their street team work to collect the most emails from NYC commuters entering subway stations around the city. 
 
-In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90's. 
+*WomenTechWomenYes (WTWY) has an annual gala at the beginning of the summer each year. As we are new and inclusive organization, we try to do double duty with the gala both to fill our event space with individuals passionate about increasing the participation of women in technology, and to concurrently build awareness and reach.*
 
-* Sartorial hoodie 
-* Labore viral forage
-* Tote bag selvage 
-* DIY exercitation et id ugh tumblr church-key
+*To this end we place street teams at entrances to subway stations. The street teams collect email addresses and those who sign up are sent free tickets to our gala.*
+
+*Where we’d like to solicit your engagement is to use MTA subway data, which as I’m sure you know is available freely from the city, to help us optimize the placement of our street teams, such that we can gather the most signatures, ideally from those who will attend the gala and contribute to our cause.*
+
+
+Clearly the goal of this organization is to **build awareness**, and they're hoping to achieve that goal by 1) connecting with as many commuters as possible and 2) specifically targeting individuals who are most likely to attend their gala and contribute to their cause. 
+
+Ideally, we would conduct an analysis of the NYC transit system and surrounding areas that would satisfy both objectives by identifying:
+
+ - **The Most Frequented Stations** - The station locations with the most frequent commuters entering
+ - **At Optimized Times** - The times when these stations are most frequented
+ - **In Ideal Areas** - The stations in areas most densely populated with tech companies and households likely to donate to non-profit organizations
+
+## Enter the Triple Constraint
+
+There's a concept in project management that every project's quality is constrained by time, resources and 
+
+ <figure>
+	<img src="http://ptgmedia.pearsoncmg.com/images/intro_9780133839753/elementLinks/01fig01.jpg" alt="">
+</figure>
+
+Given we were super constrained on time and had fixed resources (a team of three people, with limited bandwidth, using open source data/tools) we decided to limit the scope of our project to product high quality results
+
+In the end, our goal was to accomplish two things:
+
+> 1) Identify the NYC stations that have the highest frequency of commuters
+
+> 2) Identify the times of day these stations are most frequented
+
+
+## Data and Methodology
+
+We were able to pull data directly from the MTA website to get weekly counts of turnstile rotations from each subway station and also a file for subway station location data. There were some limitations/assumptions here:
+
+- The turnstile rotation counts are sampled at irregular intervals (approximately ever four hours)
+- The turnstile rotation counts will randomly
 
 Incididunt umami sriracha, ethical fugiat VHS ex assumenda yr irure direct trade. Marfa Truffaut bicycle rights, kitsch placeat Etsy kogi asymmetrical. Beard locavore flexitarian, kitsch photo booth hoodie plaid ethical readymade leggings yr.
 
