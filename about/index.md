@@ -1,17 +1,25 @@
 ---
 layout: article
 title: "About"
-date: 2014-06-02T09:44:20-04:00
-modified: 2014-08-27T14:56:44-04:00
-excerpt: "This is the Skinny Bones about page."
+date: 2018-01-23
+excerpt: "Tiffany Moeller"
 image:
   feature:
-  teaser:
-  thumb:
+  teaser: 
+  thumb: 
 share: false
 ads: false
 ---
 
-This is a work in progress.
+<p>
+<img class="img-circle"
+src="https://avatars0.githubusercontent.com/u/26209740?s=460&v=4" 
+width="20%"
+alt="Oops! I lost my photo">
 
-Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
+&emsp;
+
+<h2> Tiffany Moeller</h2>
+This section is still in progress
+</p>
+
