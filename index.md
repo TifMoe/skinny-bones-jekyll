@@ -7,26 +7,21 @@ image:
   creditlink: https://unsplash.com/@smwangphoto #url to their site or licensing
 ---
 
-<div class="tiles">
+<div class="tiles" align="center">
 
 <div class="tile">
-  <h2 class="post-title">Data Science Projects</h2>
-  <p class="post-excerpt">Industry buzz words, super compelling, interesting summary of my profolio of projects</p>
+  <h2 class="post-title">Drawing Out The Story</h2>
+  <p class="post-excerpt">Descriptive analytics - say some stuff here</p>
 </div><!-- /.tile -->
 
 <div class="tile">
-  <h2 class="post-title">Data Visualization</h2>
-  <p class="post-excerpt">Media folder to store interactive data visualizations</p>
+  <h2 class="post-title">Drawing Conclusions</h2>
+  <p class="post-excerpt">Prescriptive analytics - say some other stuff here</p>
 </div><!-- /.tile -->
 
 <div class="tile">
-  <h2 class="post-title">Tutorials</h2>
-  <p class="post-excerpt">Record my learnings along the way to benefit others wandering into the field of data science</p>
-</div><!-- /.tile -->
-
-<div class="tile">
-  <h2 class="post-title">Random Thoughts</h2>
-  <p class="post-excerpt">Other things I'll include that I can't think of right now</p>
+  <h2 class="post-title">Drawing Up Future Plans</h2>
+  <p class="post-excerpt">Predictive analytics - say some really cool stuff here</p>
 </div><!-- /.tile -->
 
 </div><!-- /.tiles -->
