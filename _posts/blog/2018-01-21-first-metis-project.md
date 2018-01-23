@@ -5,17 +5,19 @@ categories: blog
 excerpt: "My first project for Metis - an analysis of NYC subway traffic"
 tags: [blog, metis]
 image:
-  feature: nyc-subway.jpg
-  teaser: nyc-subway-teaser.jpg
+  feature: nyc-subway2.jpg
+  teaser: nyc-subway-teaser2.jpg
+  credit: Martin David 
+  creditlink: https://unsplash.com/photos/vClkunKSKkw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
 ---
 
 I recently quit my job as the Senior Business Analyst at [Sittercity](https://www.sittercity.com/) to take a full-time, three month data science course with [Metis](https://www.thisismetis.com/). Read more about my experience with Metis here. 
 
-At Metis we hit the ground running and were assigned our first of five projects on the very first day - this post is a summary of that project
+At Metis we hit the ground running and were assigned our first of five projects on the very first day. The purpose of this exploratory analytics project was to give us greater experience in python, particularly with Pandas, Numpy and Matplotlib.
 
 ___
 
-## Project Problem Statement
+## Project - Analysis of NYC Subway Commuter Traffic
 
 This first project imagines that we are contacted by a potential client, WomenTechWomenYes, to solicit our help optimizing their street team work to collect the most emails from NYC commuters entering subway stations around the city. 
 
@@ -82,9 +84,9 @@ ___
 
 I put together an interactive dashboard, hosted on Tableau Public, to visualize the results of our analysis and enable exploration of optimal locations for specific periods of time during the months our client would be canvassing.
 
+Click on an element in the bar chart or map below to view the times most optimal for a given location or hover over a specific time period to view the station with the greatest number of average commuter entries during that interval.
+
+Feel free to explore below or view this dashboard directly on my [Tableau Public](https://public.tableau.com/profile/tiffany.moeller#!/vizhome/MTA-Entry-Traffic-Dash/StationLocationsandTimes) profile!
+
 <center><iframe src="https://public.tableau.com/views/MTA-Entry-Traffic-Dash/StationLocationsandTimes?:showVizHome=no&:embed=true" width="1020" height="900" frameborder="0"></iframe></center>
  
-
-
-
-<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="https://unsplash.com/@o_j_cole?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Oliver Cole"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">Oliver Cole</span></a>
