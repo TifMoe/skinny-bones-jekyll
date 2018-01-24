@@ -1,3 +1,1 @@
-todo
-----
-[ ] To add bibliography from bibtex https://github.com/inukshuk/jekyll-scholar
+Source code for personal data science blog: TifMoe.github.io
