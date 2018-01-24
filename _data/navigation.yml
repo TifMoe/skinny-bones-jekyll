@@ -4,6 +4,7 @@
 - title: Home
   url: /
   excerpt: "Return to Home"
+  image: window.jpg
 
 - title: Blog
   url: /blog/
