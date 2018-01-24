@@ -3,8 +3,8 @@ layout: home
 permalink: /
 image:
   feature: feature-image.jpg
-  credit: Steven Wang #name of the person or site you want to credit
-  creditlink: https://unsplash.com/@smwangphoto #url to their site or licensing
+  credit: Steven Wang 
+  creditlink: https://unsplash.com/@smwangphoto 
 ---
 
 <div class="tiles" align="center">
