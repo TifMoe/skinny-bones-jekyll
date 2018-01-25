@@ -5,6 +5,7 @@ image:
   feature: feature-image.jpg
   credit: Steven Wang 
   creditlink: https://unsplash.com/@smwangphoto 
+  logo-center: #logo-transp.png
 ---
 
 <div class="tiles" align="center">

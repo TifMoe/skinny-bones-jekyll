@@ -36,7 +36,15 @@
     {% if page.image.feature %}
     <div class="page-lead" style="background-image:url({{ site.url }}/images/{{ page.image.feature }})">
       <div class="wrap page-lead-content">
+
         <h1>Drawing with Data</h1>
+
+        {% if page.image.logo-center %}
+          <img src="{{ site.url }}/images/{{ page.image.logo-center }}" 
+          width="150p">
+
+        {% endif %}
+        
         <h2>A Data Science Blog by Tiffany Moeller</h2>
         <a href="{{ site.url }}/blog/" class="btn-inverse">View the Blog</a> 
       </div><!-- /.page-lead-content -->
