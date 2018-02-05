@@ -62,7 +62,7 @@ Because our time and resources were fixed, we decided to limit the scope of our 
 
 In the end, our goal was to accomplish two things:
 
-> **Our goal is to identify:**
+**Our goal is to identify:**
 
 > 1) The Most Frequented Stations
 
