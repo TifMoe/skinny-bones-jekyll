@@ -80,11 +80,9 @@ This is cool, but I want to find a count of crimes occurring on a specific schoo
 After cleaning my outliers, I could then use this new count to size and color my school marks on the first plot below according to the total number of crimes occurring on the same block as the school. The second plot shows the normalized count of *crimes per student* (to account for schools of varying size) though this count has been increased to *crimes per 1000 students* for visualization purposes. 
 
 <figure class="half">
-	</center>
 		<img src="{{ site.url }}/images/crimes-per-school.png">
 		<img src="{{ site.url }}/images/crimes-per-student.png">
 		<figcaption>Crimes per school and crimes per student visualized above.</figcaption>
-	</center>
 </figure>
 
 ___
