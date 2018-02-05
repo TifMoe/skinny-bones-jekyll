@@ -2,7 +2,7 @@
 layout: article
 title: "Predicting Chicago Graduation Rates"
 categories: blog
-excerpt: "Second project for Metis - using Linear Regression to predict Chicago graduation rates"
+excerpt: "Second project for Metis - using Linear Regression to predict Chicago high school graduation rates"
 tags: [blog, metis, linear regression]
 image:
   feature: chicago-grad-feature.jpg  #1024x256
