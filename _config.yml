@@ -40,8 +40,10 @@ owner:
   name: Tiffany Moeller
   web: 
   email: 
-  twitter: 
-  bio: "Data Scientist"
+  twitter: tif_moe
+  linkedin: tiffanymoeller1
+  github: TifMoe
+  bio: "Data scientist in Chicago - python enthusiast and painter"
   avatar: bio-photo.jpg # 160x160 px image for author byline
   google:
     plus: 

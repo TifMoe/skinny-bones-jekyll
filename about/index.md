@@ -17,17 +17,18 @@ ads: false
 	.column {
 	    float: left;
 	    width: 100%;
+	    vertical-align: center
 	}
 }
 
 .left {
-    width: 40%;
+    width: 50%;
     vertical-align: center
-    padding: 20px;
 }
 
 .right {
-    width: 60%;
+    width: 50%;
+    vertical-align: center
 }
 /* Clear floats after the columns */
 .row:after {
@@ -41,15 +42,20 @@ ads: false
 <div class='row'>
 
 <div class="column left">
-	<img class="img-circle"
-	src="https://avatars0.githubusercontent.com/u/26209740?s=460&v=4" 
-	width="70%"
+ 
+	<img src="{{ site.url }}/images/about-image.jpg"
+	width="90%"
 	alt="Oops! I lost my photo"></div>
 
 <div class="column right">
 	<h3> Tiffany Moeller</h3>
-	<p><font size='3'>Tiffany Moeller is an artist turned data scientist living in Chicago with her husband. A python enthusiast with a passion to leverage data science to solve real-world problems, Tiffany has a keen interest in leveraging technology in the public sector to benefit and advocate for the marginalized and exploited. 
-	</font></p>
+	<p><font size='3'>Tiffany Moeller is an artist-turned-data-scientist living in Chicago with her husband. A python enthusiast with a passion to leverage data science to solve real-world problems, Tiffany has a keen interest in leveraging technology in the public sector to benefit and advocate for the marginalized and exploited. 
+	</font>
+	
+	<br><br>
+	Follow her below: <br>
+      {% include social-links.html %}
+	</p>
 </div>
 
 </div>
