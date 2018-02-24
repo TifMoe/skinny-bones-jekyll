@@ -11,10 +11,10 @@
   excerpt: "A Personal Blog"
   image: type.jpg #400x250.gif
 
-- title: Portfolio
-  url: /media/
-  excerpt: "Showcase interactive data visualizations and data science projects"
-  image: paint-brushes.jpg #400x250.gif
+#- title: Portfolio
+#  url: /media/
+#  excerpt: "Showcase interactive data visualizations and data science projects"
+#  image: paint-brushes.jpg #400x250.gif
 
 - title: About
   url: /about/
