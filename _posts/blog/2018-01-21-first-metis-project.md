@@ -4,6 +4,7 @@ title: "An Analysis of NYC Subway Usage"
 categories: blog
 excerpt: "My first project for Metis - an analysis of NYC subway traffic"
 tags: [blog, metis]
+categories: blog
 image:
   feature: nyc-subway2.jpg
   teaser: nyc-subway-teaser2.jpg
