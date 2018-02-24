@@ -1,8 +1,8 @@
 ---
 layout: article
-title: "Personal Blog"
+title: "Blog"
 modified:
-excerpt: "A collection of thoughts, inspiration, mistakes, and other minutia."
+excerpt: "A collection of thoughts, mistakes, findings and lessons learned along the way."
 tags: []
 image:
   feature:
@@ -10,7 +10,7 @@ image:
 share: false
 ---
 
-<div class="tiles">
+<div class="bullets">
 
 	{% for post in site.categories.blog %}
 	  {% include post-grid.html %}
