@@ -8,6 +8,15 @@ image:
   logo-center: #logo-transp.png
 ---
 
+<div align='center'>
+<h2>Check out my latest blogs:</h2>
+<br>
+
+{% for post in site.categories.blog %}
+  {% include post-list.html %} 
+{% endfor %}
+</div>
+
 <!---
 <div class="tiles" align="center">
 

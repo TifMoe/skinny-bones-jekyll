@@ -10,10 +10,12 @@ image:
 share: false
 ---
 
+
 <div class="bullets">
 
-	{% for post in site.categories.blog %}
+{% for post in site.categories.blog %}
 	  {% include post-grid.html %}
 {% endfor %}
+
 </div><!-- /.tiles -->
 
