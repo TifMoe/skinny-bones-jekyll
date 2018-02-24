@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "About"
+title: "About the Author"
 date: 2018-01-23
 excerpt: "Tiffany Moeller"
 image:
@@ -10,16 +10,63 @@ image:
 share: false
 ads: false
 ---
+<style>
 
-<p>
-<img class="img-circle"
-src="https://avatars0.githubusercontent.com/u/26209740?s=460&v=4" 
-width="20%"
-alt="Oops! I lost my photo">
+@media (min-width: 600px) {
 
-&emsp;
+	.column {
+	    float: left;
+	    width: 100%;
+	}
+}
 
-<h2> Tiffany Moeller</h2>
-This section is still in progress
-</p>
+.left {
+    width: 40%;
+    vertical-align: center
+    padding: 20px;
+}
 
+.right {
+    width: 60%;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+</style>
+
+<div class='row'>
+
+<div class="column left">
+	<img class="img-circle"
+	src="https://avatars0.githubusercontent.com/u/26209740?s=460&v=4" 
+	width="70%"
+	alt="Oops! I lost my photo"></div>
+
+<div class="column right">
+	<h3> Tiffany Moeller</h3>
+	<p><font size='3'>Tiffany Moeller is an artist turned data scientist living in Chicago with her husband. A python enthusiast with a passion to leverage data science to solve real-world problems, Tiffany has a keen interest in leveraging technology in the public sector to benefit and advocate for the marginalized and exploited. 
+	</font></p>
+</div>
+
+</div>
+
+---
+
+<div>
+<h2> About the Blog</h2>
+
+<p> As data science and analytic professionals, aren't we all just trying to draw out the story in our data, draw conclusions about the way the world is, or draw up plans for the future?</p>
+
+<blockquote>
+	<font size="6">We're a lot more like artists than our super mathy, speaking-in-code, robot-training public personas let on </font>
+</blockquote>
+
+
+<p>I think one of the best kept secrets of the data science industry is that we're a lot more like artists than our super mathy, speaking-in-code, robot-training public personas let on. From the obvious data visualization component of our job to the more subtle creative problem solving, feature-engineering, model-tuning aspects of data science, this career demands that we flex some serious creative muscles!</p>
+
+<p><b>Drawing with Data</b> is a technical blog exploring these themes in the context of my own personal journey from artist to data scientist.</p>
+<div>
