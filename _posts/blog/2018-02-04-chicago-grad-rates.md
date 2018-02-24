@@ -13,7 +13,7 @@ image:
 
 For someone without a formal education in a quantitative field, our second project at Metis definitely pulled me into some new territory. 
 
-The assignment? Build a linear model to predict a continuous variable using (at least in part) data scraped from the web. I choose to try to predict high school graduation rates for Chicago Public Schools using:
+The assignment? Build a linear regression model to predict a continuous variable using (at least in part) data scraped from the web. I choose to try to predict high school graduation rates for Chicago Public Schools using:
 
 - Average ACT score of the school
 - Rate of low income students in the school
@@ -28,19 +28,19 @@ At a high level, my plan of attack for this project is outlined in a page of my 
 </center>
 
 
-If you're asking yourself what a linear model is then you're in luck! Read on!
+If you're asking yourself what a linear regression model is then you're in luck! Read on!
 
 ___
 
-#### Linear Models
+#### Linear Regression
 
-Linear Models are a class of machine learning models that will take in some numerical data (features) and corresponding results (target) to define a line that best captures the shape of the data with the least amount of error. Because a line is really just a function that maps a change in X to a change in Y (remember `Y = mX + b`?) this function can then be used to make future predictions on Y values for new data (or X's) that the model hasn't seen before. 
+Linear regression is type of linear model - a machine learning method that uses a linear combination of features. Linear regression will take in some numerical data (features) and corresponding results (target) to define a straight line (or hyperplane) that best captures the shape of the data with the least amount of error. Because a line is really just a function that maps a change in X to a change in Y (remember `Y = mX + b`?) this function can then be used to make future predictions on Y values for new data (or X's) that the model hasn't seen before. 
 
 <center>
 	<img src="{{ site.url }}/images/line-sketch.jpg" width="35%">
 </center>
 
-The job of a regression model is to take the X's and Y's from the training data and to find the slope and intercept that create a line that best fits the data. A great way to think about the 'best fit' is to picture a line where the distance between the line and all the X's is reduced to the lowest possible amount - the least *error* between the prediction and the actual values. 
+The job of a regression model is to take the X's and Y's from the training data and to find the slope and intercept that create a line or hyperplane that best fits the data. A great way to think about the 'best fit' is to picture a line where the distance between the line and all the X's is reduced to the lowest possible amount - the least *error* between the prediction and the actual values. 
 
 <center>
 	<img src="{{ site.url }}/images/line-sketch-error.jpg" width="50%">
@@ -106,7 +106,7 @@ ___
 
 I used cross validation and started with a simple linear model using my most predictive feature - the school's Average ACT score - to predict graduation rates. 
 
-To evaluate my model, I want to compare the average error (distance between my prediction line and the actual values) in my training data to my validation data. Because we use the training data to (cough cough) *train* the model - I want to make sure I'm not seeing a low error due to over fitting. To account for this, I compared the average error (Root Mean Square Error, to be specific) from my training data to the error in predictions on my validation data and make sure they're relatively consistent. With small datasets, you can use cross validation to accomplish this - more to come on cross validation in a future post!
+To evaluate my model, I want to compare the average error (distance between my prediction line and the actual values) in my training data to my validation data. Because we use the training data to (cough cough) *train* the model - I want to make sure I'm not seeing a low error due to overfitting. To account for this, I compared the average error (Root Mean Square Error, to be specific) from my training data to the error in predictions on my validation data and make sure they're relatively consistent. With small datasets, you can use cross validation to accomplish this - more to come on cross validation in a future post!
 
 Below, you can see that the relationship doesn't look entirely linear (there's a curve to the data) but my model is a straight line.
 
@@ -141,9 +141,9 @@ Validation Set: 8.14
 
 Wow! You can see that this model is a much better fit to this data and can predict graduation rates using only the Average ACT score within 8 percentage points. 
 
-When I added more features into the model, I found that my training error only improved slightly, but my validation errors started shooting up. This is a tell-tell sign that I'm over-fitting my model, or that I don't have enough data to add that level of complexity. 
+When I added more features into the model, I found that my training error only improved slightly, but my validation errors started shooting up. This is a tell-tale sign that I'm overfitting my model, or that I don't have enough data to add that level of complexity. 
 
-In addition to understanding outliers, recursive dimensionality, residual plots and over-fitting, there are a lot of assumptions that go into Linear Regression which are not covered above (you can check out my instructor's [blog](https://dziganto.github.io/data%20science/linear%20regression/machine%20learning/python/Linear-Regression-101-Assumptions-and-Evaluation/) for a great write-up on this!) but I'll save that for a future post. 
+In addition to understanding outliers, avoiding the curse of dimensionality, investigating residual plots and overfitting, there are a lot of assumptions that go into Linear Regression which are not covered above (you can check out my instructor's [blog](https://dziganto.github.io/data%20science/linear%20regression/machine%20learning/python/Linear-Regression-101-Assumptions-and-Evaluation/) for a great write-up on this!) but I'll save that for a future post. 
 
 **You can check out the full project on my [Github](https://github.com/TifMoe/luther-project/blob/master/notebooks/4_ModelSelection.ipynb).**
 
