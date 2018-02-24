@@ -7,5 +7,6 @@
 </div><!-- ./author-image -->
 <div class="author-content">
 	<h3 class="author-name" >{{ site.data.messages.locales[site.locale].written_by }} {% if author.web %}<a href="{{ author.web }}" itemprop="author">{{ author.name }}</a>{% else %}<span itemprop="author">{{ author.name }}</span>{% endif %}</h3>
-	<p class="author-bio">{{ author.bio }}</p>
+	<p class="author-bio">{{ author.bio }} <br>
+	     {% include social-links.html %}</p>
 </div><!-- ./author-content -->

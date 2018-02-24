@@ -1,1 +1,20 @@
-<li>{% if post.date %}<span>{{ post.date | date: "%B %d, %Y" }}</span> &raquo; {% endif %}<a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+<li>{% if post.date %} 
+	<font size="5px">
+		<a href="{{ site.url }}{{ post.url }}">{{ post.title }}
+</a></font><br>
+<span>{{ post.date | date: "%B %d, %Y" }}</span>
+{% endif %}
+
+<br>
+
+<a align='center'>
+	<font size="2.5px" color="grey">
+		| 
+		{% for tag in post.tags %}
+		{{ tag }} |
+		{% endfor %}
+	</font>
+<br><br>
+</a>
+
+</li>

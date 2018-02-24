@@ -1,0 +1,32 @@
+<style>
+
+.icon {
+  display:inline-block;
+  vertical-align: center;
+  background-repeat:no-repeat;
+  width:20px;
+  height:20px;
+  padding-top: 11px;
+  font-size: 25px;
+}
+
+</style>
+
+
+&emsp;
+
+{% if site.owner.github %}
+<a href="https://github.com/{{ site.owner.github }}" title="Watch on Github" target="_blank"><i class="icon fa fa-github"></i></a>
+{% endif %}
+
+&emsp;
+
+{% if site.owner.linkedin %}
+<a href="http://linkedin.com/in/{{ site.owner.linkedin }}" title="Connect on LinkedIn" target="_blank"><i class="icon fa fa-linkedin"></i></a>
+{% endif %}
+
+&emsp;
+
+{% if site.owner.twitter %}
+<a href="https://twitter.com/{{ site.owner.twitter }}" title="Follow on Twitter" target="_blank"><i class="icon fa fa-twitter"></i></a>
+{% endif %}
