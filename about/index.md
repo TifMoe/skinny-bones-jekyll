@@ -22,12 +22,12 @@ ads: false
 }
 
 .left {
-    width: 50%;
+	width: 50%;
     vertical-align: center
 }
 
 .right {
-    width: 50%;
+	width: 50%;
     vertical-align: center
 }
 /* Clear floats after the columns */
@@ -49,11 +49,11 @@ ads: false
 
 <div class="column right">
 	<h3> Tiffany Moeller</h3>
-	<p><font size='3'>Tiffany Moeller is an artist-turned-data-scientist living in Chicago with her husband. A python enthusiast with a passion to leverage data science to solve real-world problems, Tiffany has a keen interest in leveraging technology in the public sector to benefit and advocate for the marginalized and exploited. 
+	<p><font size='3'>Tiffany Moeller is an artist-turned-data-scientist living in Chicago with her husband. A python enthusiast with a passion to leverage data science to solve real-world problems, Tiffany has a keen interest in data science for social good and is seeking a job in the public sector or with a non-profit where she can use technology to benefit the marginalized in society. 
 	</font>
 	
 	<br><br>
-	Follow her below: <br>
+	Connect with her below: <br>
       {% include social-links.html %}
 	</p>
 </div>
