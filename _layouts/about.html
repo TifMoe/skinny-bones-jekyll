@@ -1,0 +1,88 @@
+---
+layout: default
+---
+<style>
+
+@media (min-width: 600px) {
+
+	.column {
+	    float: left;
+	    width: 100%;
+	    vertical-align: center
+	}
+}
+
+.left {
+	width: 50%;
+    vertical-align: center
+}
+
+.right {
+	width: 50%;
+    vertical-align: center
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+
+<div id="main" role="main">
+	<article class="wrap" itemscope itemtype="http://schema.org/Article">
+		{% if page.image.feature %}
+		<div class="page-feature">
+			<div class="page-image">
+				<img src="{{ site.url }}/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}" itemprop="image">
+				{% if page.image.credit %}{% include image-credit.html %}{% endif %}
+			</div><!-- /.page-image -->
+		</div><!-- /.page-feature -->
+		{% endif %}
+		{% include breadcrumbs.html %}
+		<div class="page-title">
+			<h1>{{ page.title }}</h1>
+		</div>
+		<div class="inner-wrap">
+			<div id="content" class="page-content" itemprop="articleBody">
+
+            <div class='row'>
+
+              <div class="column left">
+
+                <img src="{{ site.url }}/images/about-image.jpg"
+                width="90%"
+                alt="Oops! I lost my photo">
+              </div>
+
+              <div class="column left">
+                <h3> Tiffany Moeller</h3>
+                <p><font size='3'>Tiffany Moeller is an artist-turned-data-scientist living in Chicago with her husband. A python enthusiast with a passion to leverage data science to solve real-world problems, Tiffany has a keen interest in data science for social good and is excited to use technology to benefit the marginalized and exploited.
+                </font>
+
+                <br><br>
+                Connect with her below: <br>
+                    {% include social-links.html %}
+                </p>
+              </div>
+
+          </div>
+
+        <div>
+  				{{ content }}
+        <div>
+
+				<hr />
+				<footer class="page-footer">
+					{% if page.categories %}{% include page-author.html %}{% endif %}
+					{% if page.share != false %}{% include share-this.html %}{% endif %}
+					{% include page-meta.html %}
+				</footer><!-- /.footer -->
+				<aside>
+					{% if page.comments == true %}{% include comments.html %}{% endif %}
+				</aside>
+			</div><!-- /.content -->
+		</div><!-- /.inner-wrap -->
+		{% if page.ads == true %}<div class="ads">{% include advertising.html %}</div><!-- /.ads -->{% endif %}
+	</article><!-- ./wrap -->
+</div><!-- /#main -->
