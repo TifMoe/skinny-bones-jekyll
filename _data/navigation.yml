@@ -3,13 +3,13 @@
 
 - title: Home
   url: /
-  excerpt: "Return to Home"
-  image: window.jpg
+  excerpt: "Back to the home page"
+  image: home.png
 
 - title: Blog
   url: /blog/
-  excerpt: "A Personal Blog"
-  image: type.jpg #400x250.gif
+  excerpt: "A technical data science blog"
+  image: blog.png #400x250.gif
 
 #- title: Portfolio
 #  url: /media/
@@ -19,4 +19,4 @@
 - title: About
   url: /about/
   excerpt: "About Tiffany Moeller"
-  image: coffee.jpg #400x250.gif
+  image: about.png #400x250.gif
