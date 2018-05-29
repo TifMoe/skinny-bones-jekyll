@@ -6,10 +6,10 @@ excerpt: "My first project for Metis - an analysis of NYC subway traffic"
 tags: [blog, metis]
 categories: blog
 image:
-  feature: nyc-subway2.jpg
-  teaser: nyc-subway-teaser2.jpg
-  credit: Martin David 
-  creditlink: https://unsplash.com/photos/vClkunKSKkw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+  feature: #nyc-subway2.jpg
+  teaser: commuter.png
+  credit: #Martin David 
+  creditlink: #https://unsplash.com/photos/vClkunKSKkw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
 ---
 
 I recently quit my job as the Senior Business Analyst at [Sittercity](https://www.sittercity.com/) to take a full-time, three month data science course with [Metis](https://www.thisismetis.com/). Read more about my experience with Metis here. 

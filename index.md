@@ -6,7 +6,6 @@ image:
   credit: Steve Johnson 
   creditlink: https://unsplash.com/@steve_j 
   logo-center: drawing-logo.png
-  teaser: site-teaser-logo.png
 ---
 
 <div align='center'>

@@ -5,10 +5,10 @@ categories: blog
 excerpt: "Second project for Metis - using Linear Regression to predict Chicago high school graduation rates"
 tags: [blog, metis, linear regression]
 image:
-  feature: chicago-grad-feature.jpg  #1024x256
-  teaser: chicago-grad-teaser.jpg #400x250
-  credit: Tamarcus Brown
-  creditlink: https://unsplash.com/photos/zuQDqLFavI4
+  feature: #chicago-grad-feature.jpg  #1024x256
+  teaser: grad.png #400x250
+  credit: #Tamarcus Brown
+  creditlink: #https://unsplash.com/photos/zuQDqLFavI4
 ---
 
 For someone without a formal education in a quantitative field, our second project at Metis definitely pulled me into some new territory. 
