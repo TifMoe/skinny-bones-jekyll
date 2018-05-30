@@ -11,6 +11,11 @@
   excerpt: "A technical data science blog"
   image: blog.png #400x250.gif
 
+- title: Categories
+  url: /categories/
+  excerpt: "Archive of past blogs by category"
+  image: discover.png #400x250.gif
+
 #- title: Portfolio
 #  url: /media/
 #  excerpt: "Showcase interactive data visualizations and data science projects"
