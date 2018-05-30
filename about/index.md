@@ -10,6 +10,35 @@ image:
 share: false
 ads: false
 ---
+<style>
+
+@media (min-width: 600px) {
+
+	.column {
+	    float: left;
+	    width: 100%;
+	    vertical-align: center
+	}
+}
+
+.left {
+	width: 50%;
+    vertical-align: center
+}
+
+.right {
+	width: 50%;
+    vertical-align: center
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+</style>
 
 <h2> About the Blog</h2>
 
