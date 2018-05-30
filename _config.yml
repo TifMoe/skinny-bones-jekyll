@@ -19,6 +19,7 @@ highlighter: rouge
 gems:
   - jekyll-sitemap
   - jekyll-gist
+  - jekyll-paginate
 paginate: 5
 
 # Octopress configuration
