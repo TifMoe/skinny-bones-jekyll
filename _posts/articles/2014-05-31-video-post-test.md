@@ -3,7 +3,7 @@ layout: article
 title: "Video Post Test"
 date: 2014-05-31T23:14:02-04:00
 modified:
-categories: articles
+categories: 
 excerpt: "A post with a YouTube video."
 tags: [video]
 ads: true

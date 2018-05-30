@@ -1,9 +1,9 @@
 ---
 layout: article
 title: "my Sleep Goal Resolution"
-categories: articles
+categories: 
 modified: 2016-04-30T20:53:57-04:00
-tags: [blog, goal]
+tags: 
 author: sik
 comments: true
 ads: false

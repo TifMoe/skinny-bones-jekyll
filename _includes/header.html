@@ -1,12 +1,27 @@
-<header id="masthead">
+<style>
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  padding: 20px;
+}
+
+</style>
+
+  <header id="masthead" >
 
   <div class="inner-wrap">
 
     <a href="{{ site.url }}/" class="site-title">
-    	<img src="{{ site.url }}/images/LogoTextStraight.png" height="150px" width="300px" ;></a>
+    	<img src="{{ site.url }}/images/LogoTextStraight.png" width="300px" ;></a>
 
     <nav role="navigation" class="menu top-menu">
         {% include navigation.html %}
     </nav>
   </div><!-- /.inner-wrap -->
 </header><!-- /.masthead -->
+
+
