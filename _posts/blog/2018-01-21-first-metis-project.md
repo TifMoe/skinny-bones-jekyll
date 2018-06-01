@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "An Analysis of NYC Subway Usage"
-categories: [blog, tableau]
+categories: [blog, project]
 excerpt: "My first project for Metis - an analysis of NYC subway traffic"
 tags: [tableau, metis, optimization]
 image:
