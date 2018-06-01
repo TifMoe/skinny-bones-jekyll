@@ -13,7 +13,7 @@ ads: false
 
 
 {% for post in site.posts limit:1 %}
-  <li>
+  <li style="list-style-type:none">
     <a href="{{ post.url }}">
     <h3 class="brand-blue">{{ post.title }}</h3>
     <p class="blogdate">{{ post.date | date: "%d %B %Y" }}</p>
@@ -34,7 +34,7 @@ ads: false
 
 <h1>Recent Posts</h1>
 {% for post in site.posts offset:1 limit:3 %}
-  <li>
+  <li style="list-style-type:none">
     <a href="{{ post.url }}">
     <h3 class="brand-blue">{{ post.title }}</h3>
     <p class="blogdate">{{ post.date | date: "%d %B %Y" }}</p>
