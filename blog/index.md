@@ -33,7 +33,7 @@ ads: false
 <br>
 
 <h1>Recent Posts</h1>
-{% for post in site.posts offset:1 limit:3 %}
+{% for post in site.posts offset:1 limit:2 %}
   <li style="list-style-type:none">
     <a href="{{ post.url }}">
     <h3 class="brand-blue">{{ post.title }}</h3>
