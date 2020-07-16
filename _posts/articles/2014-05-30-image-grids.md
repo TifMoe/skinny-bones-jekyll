@@ -19,48 +19,48 @@ This is a post to test image grids.
     <a href="#"><img src="{{ site.url }}/images/puppytest.jpeg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="http://placehold.it/150x150.gif" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytestcrop.jpeg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="http://placehold.it/150x150.gif" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytestflattened.jpeg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="http://placehold.it/150x150.gif" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytestfuzzy.jpeg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="http://placehold.it/150x150.gif" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytestgreen.jpeg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="http://placehold.it/150x150.gif" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytestgreyscale.jpeg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="http://placehold.it/150x150.gif" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytesthighcontrast.jpeg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="http://placehold.it/150x150.gif" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytestoverlay.jpeg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="http://placehold.it/150x150.gif" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytestrotated.jpeg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="http://placehold.it/150x150.gif" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytestsharp.jpeg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="http://placehold.it/150x150.gif" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytestsmall.jpeg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="http://placehold.it/150x150.gif" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytestsquished.jpeg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="http://placehold.it/150x150.gif" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytestupsidedown.jpeg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="http://placehold.it/150x150.gif" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytestadultdecoy.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="http://placehold.it/150x150.gif" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytestflippedupsidedown.jpeg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="http://placehold.it/150x150.gif" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytestfliphorizontal.jpeg" alt=""></a>
   </li>
 </ul>
