@@ -16,51 +16,51 @@ This is a post to test image grids.
 
 <ul class="th-grid">
   <li>
-    <a href="#"><img src="{{ site.url }}/images/puppytest.jpeg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytest.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/puppytestcrop.jpeg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytestcrop.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/puppytestflattened.jpeg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytestflattened.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/puppytestfuzzy.jpeg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytestfuzzy.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/puppytestgreen.jpeg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytestgreenscale.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/puppytestgreyscale.jpeg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytestgreyscale.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/puppytesthighcontrast.jpeg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytesthighcontrast.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/puppytestoverlay.jpeg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytestoverlay.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/puppytestrotated.jpeg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytestrotated.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/puppytestsharp.jpeg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytestsharp.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/puppytestsmall.jpeg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytestsmall.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/puppytestsquished.jpeg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytestsquished.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/puppytestupsidedown.jpeg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytestupsidedown.jpg" alt=""></a>
   </li>
   <li>
     <a href="#"><img src="{{ site.url }}/images/puppytestadultdecoy.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/puppytestflippedupsidedown.jpeg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytestflippedupsidedown.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/puppytestfliphorizontal.jpeg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytestfliphorizontal.jpg" alt=""></a>
   </li>
 </ul>
