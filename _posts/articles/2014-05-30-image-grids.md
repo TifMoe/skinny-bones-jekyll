@@ -6,17 +6,17 @@ modified:
 categories: articles
 excerpt: "Demoing the various thumbnail grid styles."
 tags: []
-ads: true
+ads: false
 image:
-  feature:
-  teaser:
+  feature: #puppytest.jpeg
+  teaser: puppytest.jpeg
 ---
 
 This is a post to test image grids.
 
 <ul class="th-grid">
   <li>
-    <a href="#"><img src="http://placehold.it/150x150.gif" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/puppytest.jpeg" alt=""></a>
   </li>
   <li>
     <a href="#"><img src="http://placehold.it/150x150.gif" alt=""></a>
