@@ -8,8 +8,8 @@ excerpt: "Demoing the various thumbnail grid styles."
 tags: []
 ads: false
 image:
-  feature: #puppytest.jpeg
-  teaser: puppytest.jpeg
+  feature: #puppytest.jpg
+  teaser: puppytest.jpg
 ---
 
 This is a post to test image grids.
