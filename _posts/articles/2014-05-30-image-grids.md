@@ -63,4 +63,16 @@ This is a post to test image grids.
   <li>
     <a href="#"><img src="{{ site.url }}/images/puppytestfliphorizontal.jpg" alt=""></a>
   </li>
+  <li>
+    <a href="#"><img src="{{ site.url }}/images/puppytestflipXrotate90.jpg" alt=""></a>
+  </li>
+    <li>
+    <a href="#"><img src="{{ site.url }}/images/puppytestflipXrotate270.jpg" alt=""></a>
+  </li>
+    <li>
+    <a href="#"><img src="{{ site.url }}/images/puppytestborder.jpg" alt=""></a>
+  </li>
+  <li>
+    <a href="#"><img src="{{ site.url }}/images/featureless.jpg" alt=""></a>
+  </li>
 </ul>
