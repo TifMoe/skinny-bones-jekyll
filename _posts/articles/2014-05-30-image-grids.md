@@ -8,71 +8,71 @@ excerpt: "Demoing the various thumbnail grid styles."
 tags: []
 ads: false
 image:
-  feature: #test3/puppytest.jpg
-  teaser: test3/puppytest.jpg
+  feature: #test4/puppytest.jpg
+  teaser: test4/puppytest.jpg
 ---
 
 This is a post to test image grids.
 
 <ul class="th-grid">
   <li>
-    <a href="#"><img src="{{ site.url }}/images/test3/puppytest.jpg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/test4/puppytest.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/test3/puppytestcrop.jpg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/test4/puppytestcrop.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/test3/puppytestflattened.jpg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/test4/puppytestflattened.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/test3/puppytestfuzzy.jpg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/test4/puppytestfuzzy.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/test3/puppytestgreenscale.jpg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/test4/puppytestgreenscale.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/test3/puppytestgreyscale.jpg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/test4/puppytestgreyscale.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/test3/puppytesthighcontrast.jpg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/test4/puppytesthighcontrast.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/test3/puppytestoverlay.jpg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/test4/puppytestoverlay.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/test3/puppytestrotated.jpg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/test4/puppytestrotated.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/test3/puppytestsharp.jpg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/test4/puppytestsharp.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/test3/puppytestsmall.jpg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/test4/puppytestsmall.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/test3/puppytestsquished.jpg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/test4/puppytestsquished.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/test3/puppytestupsidedown.jpg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/test4/puppytestupsidedown.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/test3/puppytestadultdecoy.jpg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/test4/puppytestadultdecoy.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/test3/puppytestflippedupsidedown.jpg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/test4/puppytestflippedupsidedown.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/test3/puppytestfliphorizontal.jpg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/test4/puppytestfliphorizontal.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/test3/puppytestflipXrotate90.jpg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/test4/puppytestflipXrotate90.jpg" alt=""></a>
   </li>
     <li>
-    <a href="#"><img src="{{ site.url }}/images/test3/puppytestflipXrotate270.jpg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/test4/puppytestflipXrotate270.jpg" alt=""></a>
   </li>
     <li>
-    <a href="#"><img src="{{ site.url }}/images/test3/puppytestborder.jpg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/test4/puppytestborder.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/test3/featureless.jpg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/images/test4/featureless.jpg" alt=""></a>
   </li>
 </ul>
