@@ -75,7 +75,10 @@ This is a post to test image grids.
   <li>
     <a href="#"><img src="{{ site.url }}/images/test6/featureless.jpg" alt=""></a>
   </li>
-    <li>
-    <a href="#"><img src="{{ site.url }}/images/test6/markeduppuppy.png" alt=""></a>
+  <li>
+    <a href="#"><img src="{{ site.url }}/images/test6/puppytestimage1.png" alt=""></a>
+  </li>
+  <li>
+    <a href="#"><img src="{{ site.url }}/images/test6/puppytestimage2.png" alt=""></a>
   </li>
 </ul>
