@@ -73,12 +73,15 @@ This is a post to test image grids.
     <a href="#"><img src="{{ site.url }}/images/test6/puppytestborder.jpg" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/images/test6/featureless.jpg" alt=""></a>
+    <a href="#"><img src="{{ site.url }}/cdn-cgi/image/width=100/images/test6/featureless.jpg" alt=""></a>
   </li>
   <li>
     <a href="#"><img src="{{ site.url }}/cdn-cgi/image/width=100/images/test6/puppytestimage1.png" alt=""></a>
   </li>
   <li>
     <a href="#"><img src="{{ site.url }}/cdn-cgi/image/width=100/images/test6/puppytestimage2.png" alt=""></a>
+  </li>
+  <li>
+    <a href="#"><img src="{{ site.url }}/cdn-cgi/image/width=100/https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfI9FWcvwrfkIB4iC9mcHR0wc0skSXmGtRaQ&usqp=CAU" alt="grey-clouded-featureless"></a>
   </li>
 </ul>
