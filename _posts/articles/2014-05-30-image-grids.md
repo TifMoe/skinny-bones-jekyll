@@ -87,4 +87,10 @@ This is a post to test image grids.
   <li>
     <a href="#"><img src="https://img.buzzfeed.com/buzzfeed-static/static/2020-03/5/23/enhanced/25a67c968a0a/enhanced-262-1583449224-1.png?downsize=900:*&output-format=auto&output-quality=auto" alt="grey-clouded-featureless"></a>
   </li>
+  <li>
+    <a href="#"><img src="https://cdn4.iconfinder.com/data/icons/essential-app-2/16/stop-block-cube-music-square-512.png" alt="orange-clouded-featureless"></a>
+  </li>
+  <li>
+    <a href="#"><img src="{{ site.url }}/cdn-cgi/image/width=100/https://cdn4.iconfinder.com/data/icons/essential-app-2/16/stop-block-cube-music-square-512.png?irp=true" alt="irp-orange-clouded-featureless"></a>
+  </li>
 </ul>
