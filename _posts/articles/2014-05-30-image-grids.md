@@ -82,6 +82,9 @@ This is a post to test image grids.
     <a href="#"><img src="{{ site.url }}/cdn-cgi/image/width=100/images/test6/puppytestimage2.png" alt=""></a>
   </li>
   <li>
-    <a href="#"><img src="{{ site.url }}/cdn-cgi/image/width=100/https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfI9FWcvwrfkIB4iC9mcHR0wc0skSXmGtRaQ&usqp=CAU" alt="grey-clouded-featureless"></a>
+    <a href="#"><img src="{{ site.url }}/cdn-cgi/image/width=100/https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfI9FWcvwrfkIB4iC9mcHR0wc0skSXmGtRaQ&usqp=CAU" alt="irp-grey-clouded-featureless"></a>
+  </li>
+  <li>
+    <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbdhm9Gk9t9ZSFBpaIMCkz0kEUoxKoQP4Qkw&usqp=CAU" alt="grey-clouded-featureless"></a>
   </li>
 </ul>
